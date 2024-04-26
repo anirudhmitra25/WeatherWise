@@ -8,6 +8,7 @@ import getBackgroundColor from "../helper/fetchBackgroundColor";
 import fetchWeatherData from "../api/fetchWeatherData";
 import formatLocalTime from "../helper/formatDate";
 import HourlyWeatherComponent from "../components/HourlyWeatherComponent";
+import { WiHumidity } from "react-icons/wi";
 
 interface IWeatherData {
   location: {
@@ -144,12 +145,20 @@ const LandingPage = () => {
                         {weatherData.current.temp_c}° C
                       </h1>
                     </div>
-                    <div className="flex justify-center items-center mt-5 mb-5">
-                      <FaWind />
-                      <span className="ml-3">
-                        {weatherData.current.wind_dir},{" "}
-                        {weatherData.current.wind_kph} km/h
-                      </span>
+                    <div className="w-fit mx-auto opacity-80">
+                      <div className="flex justify-start items-center mt-5 mb-5">
+                        <FaWind className="w-7 h-7" />
+                        <span className="ml-3 font-semibold">
+                          {weatherData.current.wind_dir},{" "}
+                          {weatherData.current.wind_kph} km/h
+                        </span>
+                      </div>
+                      <div className="flex justify-start items-center mt-5 mb-5">
+                        <WiHumidity className="w-7 h-7" />
+                        <span className="ml-3 font-semibold">
+                          {weatherData.current.humidity} %
+                        </span>
+                      </div>
                     </div>
                     <div className="sm:px-0 px-3 mt-10">
                       <h1 className=" font-semibold md:text-2xl text-xl ">
