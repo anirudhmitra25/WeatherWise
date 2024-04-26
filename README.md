@@ -21,7 +21,7 @@ WeatherWise is a weather application that provides users with real-time weather 
 
 ## Local Setup
 
-Follow these steps to run GrooveTube locally on your machine:
+Follow these steps to run WeatherWise locally on your machine:
 
 1. Clone the repository:
    ```bash
@@ -39,7 +39,7 @@ Follow these steps to run GrooveTube locally on your machine:
    ```bash
    npm start
    ```
-5. Open your browser and visit http://localhost:3000 to view GrooveTube.
+5. Open your browser and visit http://localhost:3000 to view WeatherWise.
    ``
 
 Feel free to explore the app. If you have any questions or suggestions, please reach out!
