@@ -29,7 +29,7 @@ Follow these steps to run GrooveTube locally on your machine:
    ```
 2. Navigate to project directory:
    ```bash
-   cd groovetube
+   cd WeatherWise
    ```
 3. Install dependencies using npm or yarn:
    ```bash
