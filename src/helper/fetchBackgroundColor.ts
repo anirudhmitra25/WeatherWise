@@ -2,7 +2,7 @@ const getBackgroundColor = (code: number) => {
   const colorMap: { [key: number]: string } = {
     1000: "bg-amber-700", // Sunny
     1003: "bg-sky-800", // Partly cloudy
-    1006: "bg-sky-700", // Cloudy
+    1006: "bg-sky-900", // Cloudy
     1009: "bg-slate-600", // Overcast
     1030: "bg-slate-700", // Mist
     1063: "bg-blue-700", // Patchy rain possible
